@@ -114,22 +114,24 @@ var relax1 = document.querySelector(".page6 .relax1")
 var relax3 = document.querySelector(".page6 .relax3")
 gsap.to(relax1,{
     x:"-200",
-    duration:4,
+    duration:6,
+    delay:4,
     scrollTrigger:{
         trigger:".page6 .relax1",
         scroller:"body",
-        start:"top 70%",
+        start:"top 75%",
         end:"top 0%",
         scrub:1
     }
 })
 gsap.to(relax3,{
     x:"200",
-    duration:4,
+    duration:6,
+    delay:4,
     scrollTrigger:{
         trigger:".page6 .relax3",
         scroller:"body",
-        start:"top 70%",
+        start:"top 75%",
         end:"top 0%",
         scrub:1
     }
